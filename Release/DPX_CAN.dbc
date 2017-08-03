@@ -1,0 +1,153 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: HILS_DATA_OUT
+
+
+BO_ 612 ID264_Gyro2: 8 Vector__XXX
+ SG_ ID264_Gyro_Z : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 611 ID263_Gyro1: 8 Vector__XXX
+ SG_ ID263_Gyro_Y : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID263_Gyro_X : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 610 ID262_Acc2: 8 Vector__XXX
+ SG_ ID262_Acc_Z : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 609 ID261_Acc1: 8 Vector__XXX
+ SG_ ID261_Acc_Y : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID261_Acc_X : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 769 ID301_DPX_State: 8 Vector__XXX
+ SG_ ID301_DPX_State_signal : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 581 ID245_Contact_point_RC_: 8 Vector__XXX
+ SG_ ID245_Contact_point_RC : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 580 ID244_Contact_point_RLR: 8 Vector__XXX
+ SG_ ID244_Contact_point_RR : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID244_Contact_point_RL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 579 ID243_Contact_point_FCLR: 8 Vector__XXX
+ SG_ ID243_Contact_point_FCR : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID243_Contact_point_FCL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 578 ID242_Contact_point_FLR: 8 Vector__XXX
+ SG_ ID242_Contact_point_FR : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID242_Contact_point_FL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 593 ID251_EPS_ITN_MONI: 8 Vector__XXX
+ SG_ ID251_EPS_ITN_MONI : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 577 ID241_Contact_FL: 8 Vector__XXX
+ SG_ ID241_Rear_contact_FL : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID241_Front_contact_FL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 321 ID141_Automatic_start: 8 Vector__XXX
+ SG_ ID141_Automatic_start_FL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 305 ID131_Contact_check_FL: 8 Vector__XXX
+ SG_ ID131_Side_Contact_check_FL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 562 ID232_Wheel_angle: 8 Vector__XXX
+ SG_ ID232_Wheel_angle_RR : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID232_Wheel_angle_RL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 561 ID231_Wheel_angle: 8 Vector__XXX
+ SG_ ID231_Wheel_angle_FR : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID231_Wheel_angle_FL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 545 ID221_Target_throttle: 8 Vector__XXX
+ SG_ ID221_Target_throttle : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 529 ID211_CAN_Err_AND_EPS_WAEN: 8 Vector__XXX
+ SG_ ID211_EPS_WARN_STATUS : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID211_CAN_ERROR : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 513 ID201_STR_angle_AND_VSP: 8 Vector__XXX
+ SG_ ID201_VSP : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID201_EPS_STR_Angle : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 289 ID121_Tun_signal: 8 Vector__XXX
+ SG_ ID121_Horn_FL : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID121_DPX_Turn_signal : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 273 ID111_Fail_AND_Target_VSP: 8 Vector__XXX
+ SG_ ID111_DPX_Target_VSP : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID111_DPX_Fail_FL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 257 ID101_EPS: 8 Vector__XXX
+ SG_ ID101_DPX_Target_Steering_Angle : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ID101_DPX_EPS_IG_FL : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "CAN";
+SIG_VALTYPE_ 612 ID264_Gyro_Z : 1;
+SIG_VALTYPE_ 611 ID263_Gyro_Y : 1;
+SIG_VALTYPE_ 611 ID263_Gyro_X : 1;
+SIG_VALTYPE_ 610 ID262_Acc_Z : 1;
+SIG_VALTYPE_ 609 ID261_Acc_Y : 1;
+SIG_VALTYPE_ 609 ID261_Acc_X : 1;
+SIG_VALTYPE_ 769 ID301_DPX_State_signal : 1;
+SIG_VALTYPE_ 581 ID245_Contact_point_RC : 1;
+SIG_VALTYPE_ 580 ID244_Contact_point_RR : 1;
+SIG_VALTYPE_ 580 ID244_Contact_point_RL : 1;
+SIG_VALTYPE_ 579 ID243_Contact_point_FCR : 1;
+SIG_VALTYPE_ 579 ID243_Contact_point_FCL : 1;
+SIG_VALTYPE_ 578 ID242_Contact_point_FR : 1;
+SIG_VALTYPE_ 578 ID242_Contact_point_FL : 1;
+SIG_VALTYPE_ 593 ID251_EPS_ITN_MONI : 1;
+SIG_VALTYPE_ 577 ID241_Rear_contact_FL : 1;
+SIG_VALTYPE_ 577 ID241_Front_contact_FL : 1;
+SIG_VALTYPE_ 321 ID141_Automatic_start_FL : 1;
+SIG_VALTYPE_ 305 ID131_Side_Contact_check_FL : 1;
+SIG_VALTYPE_ 562 ID232_Wheel_angle_RR : 1;
+SIG_VALTYPE_ 562 ID232_Wheel_angle_RL : 1;
+SIG_VALTYPE_ 561 ID231_Wheel_angle_FR : 1;
+SIG_VALTYPE_ 561 ID231_Wheel_angle_FL : 1;
+SIG_VALTYPE_ 545 ID221_Target_throttle : 1;
+SIG_VALTYPE_ 529 ID211_EPS_WARN_STATUS : 1;
+SIG_VALTYPE_ 529 ID211_CAN_ERROR : 1;
+SIG_VALTYPE_ 513 ID201_VSP : 1;
+SIG_VALTYPE_ 513 ID201_EPS_STR_Angle : 1;
+SIG_VALTYPE_ 289 ID121_Horn_FL : 1;
+SIG_VALTYPE_ 289 ID121_DPX_Turn_signal : 1;
+SIG_VALTYPE_ 273 ID111_DPX_Target_VSP : 1;
+SIG_VALTYPE_ 273 ID111_DPX_Fail_FL : 1;
+SIG_VALTYPE_ 257 ID101_DPX_Target_Steering_Angle : 1;
+SIG_VALTYPE_ 257 ID101_DPX_EPS_IG_FL : 1;
+
