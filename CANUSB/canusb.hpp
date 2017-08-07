@@ -11,9 +11,7 @@
 #include <windows.h>
 
 #include "lawicel_can.h"
-#include "readdbc.hpp"
 
-#include <vector>
 
 
 // char‚Æfloat‚Ì‹¤—p‘Ì

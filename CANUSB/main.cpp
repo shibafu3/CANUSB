@@ -4,7 +4,8 @@
 #include "canusb.hpp"
 
 
-
+//500 0x1f4 ノーマルモードかどうか 0 1
+//float -1～1
 
 
 
