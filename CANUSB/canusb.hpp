@@ -80,7 +80,7 @@ public:
 	}
 	std::vector<CANMsg> ReadCan(){
 		CANMsg msg;
-		int status;
+		int status = 0;
 
 		// 全IDを走査 受信できたIDとそのメッセージを格納
 		for (int i = 0; i < 2048; ++i){
@@ -108,6 +108,20 @@ public:
 		}
 
 		return temp_msgs;
+
+	}
+	CANMsg ReadCan(int id){
+		CANMsg msg;
+		int status = 0;
+
+		while (status <= 0){
+			if ((status = canusb_ReadFirst(canhandle, id, 0x00, &msg)) > 0){
+				msgs[id] = msg;
+				flag[id] = 1;
+			}
+		}
+
+		return msg;
 
 	}
 	int WriteCan(int id, ByteToFloat &b2f){
