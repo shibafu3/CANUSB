@@ -13,7 +13,8 @@ int main(){
 	ByteToFloat b2f;
 
 	while (1){
-		std::cout << *((float *)(&cu.ReadCan(0x1f4).data[0])) << std::endl;
+		std::cout << *((float *)(&cu.ReadCan(0x100).data[4])) << std::endl;
+		Sleep(10);
 	}
 
 	return 0;
